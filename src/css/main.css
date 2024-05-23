@@ -1,0 +1,58 @@
+*{
+    margin: 0 px;
+    padding: 0 px;
+    box-sizing: border-box;
+}
+
+h1{
+color: orange;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 1rem;
+}
+
+.nav-menu{
+    display: flex;
+    list-style-type: none;
+    gap: .5rem;
+    color: white;
+    
+}
+
+.nav-link{
+    text-decoration: none ;
+    color:red;
+}
+
+.container{
+    min-height: auto ;
+    display: flex ;
+    place-items: center ;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2px;
+    background-color: rgb(231, 183, 95);
+}
+
+
+.col-md-6{
+    padding: 5px;
+    margin: 5px;
+    background-color: gray;
+    border: 10px solid green;
+    border-radius: 5px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.carro{
+    background-color: rgb(231, 183, 95);
+    padding: 3px;
+    border-radius: 5px;
+}
